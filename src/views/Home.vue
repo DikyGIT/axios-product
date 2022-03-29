@@ -27,6 +27,7 @@ import Navbar from "@/components/Navbar.vue";
 import Hero from "@/components/Hero.vue";
 import CardProduct from "@/components/CardProduct";
 
+// * Setelah install axios
 // * Untuk memakai axios, terlebih dahulu harus di registrasikan
 import axios from "axios";
 
