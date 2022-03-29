@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&family=Montserrat:wght@300;400;700&display=swap');
+
+#app{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active{
+  font-weight: bold;
+  /* color: green; */
+}
+
+.hero{
+  height: 91vh;
+  max-height: 100%;
+  position: relative;
+  /* background-color: #4eb883; */
+}
+
+.hero .btn-success{
+  background-color: #4eb883;
+  font-weight: 400;
+}
+
+.hero .btn-success:hover{
+  background-color: #43a071;
+}
+
+.card-product{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card-product .card-img-top{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  /* border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px; */
+}
+
+.foods .breadcrumb{
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+.foods .breadcrumb .breadcrumb-item.active{
+  color: black;
+  font-weight: bold;
+}
+
+.food-detail .breadcrumb{
+  background-color: transparent;
+  padding: 0;
+}
+
+.food-detail .breadcrumb .breadcrumb-item.active{
+  color: black;
+  font-weight: bold;
+}
+
+.food-detail .detailImg{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.keranjang .breadcrumb{
+  background-color: transparent;
+  padding: 0;
+}
+
+.keranjang .breadcrumb .breadcrumb-item.active{
+  color: black;
+  font-weight: bold;
+}
+
+.keranjang .table .trash{
+  cursor: pointer;
+}
